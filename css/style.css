@@ -1,3 +1,50 @@
+footer {
+  padding-top: 2%;
+  background-color: rgb(130, 130, 130);
+  opacity: 0.7;
+  font-size: 1.2em;
+}
+footer a {
+  text-decoration: none;
+  color: white
+}
+
+#thanks p {
+  color: white;
+  cursor: cell;
+  text-align: center;
+}
+
+#thanks span {
+  transition: color 3s;
+  transition-delay: 1s;
+}
+
+#thanks span:hover {
+  transition: color 0s;
+}
+
+#thanks span:nth-child(1n):hover {
+  color: #A8E6CF;
+}
+
+#thanks span:nth-child(2n):hover {
+  color: #DCEDC1;
+}
+
+#thanks span:nth-child(3n):hover {
+  color: #FFD3B6;
+}
+
+#thanks span:nth-child(4n):hover {
+  color: #FFAAA5;
+}
+
+#thanks span:nth-child(5n):hover {
+  color: #FF8B94;
+}
+
+
 .student-icons {
     text-align: center;
 }
