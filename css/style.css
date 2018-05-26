@@ -2,6 +2,21 @@
     text-align: center;
 }
 
+.student-name {
+    padding-top: 12px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
 .fa-linkedin-in {
     padding: 0px 20px;
+    color: #0076B5;
+}
+
+.fa-github-alt {
+    color: #24292e;
+}
+
+.fa-globe {
+    color: #f0452d;
 }
