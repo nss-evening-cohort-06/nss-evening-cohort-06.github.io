@@ -1,36 +1,35 @@
 .student-icons {
-    text-align: center;
+  text-align: center;
 }
 
 .student-name {
-    padding-top: 12px;
-    padding-bottom: 8px;
-    text-align: center;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  text-align: center;
 }
 
 .fa-linkedin-in {
-    padding: 0px 20px;
-    color: #0076B5;
+  padding: 0px 20px;
+  color: #0076B5;
 }
 
 .fa-github-alt {
-    color: #24292e;
+  color: #24292e;
 }
 
 .fa-globe {
-    color: #f0452d;
+  color: #f0452d;
 }
 
 .bounce {
-    position: absolute;
-    bottom:0;
-    margin-left:47%;
-    animation: bounce 3s ease-in-out infinite; 
-    -webkit-animation: bounce 3s ease-in-out infinite; 
-    -moz-animation: bounce 3s ease-in-out infinite; 
-    -o-animation: bounce 3s ease-in-out infinite; 
+  position: absolute;
+  bottom:0;
+  margin-left:47%;
+  animation: bounce 3s ease-in-out infinite; 
+  -webkit-animation: bounce 3s ease-in-out infinite; 
+  -moz-animation: bounce 3s ease-in-out infinite; 
+  -o-animation: bounce 3s ease-in-out infinite; 
 }
-
 .bounce i {
   color: white;
   font-size: 4rem;
@@ -212,37 +211,3 @@
   text-align: right;
 }
 
-
-/* 
-
-
-@media screen and (max-width: 26em) {
-  .side_wrapper {
-    min-height: 100vh;
-    background: #ededed;
-  }
-  .about-dev {
-    box-shadow: none;
-  }
-}
-
-@media screen and (min-width: 33em) {
-  .side_wrapper {
-    margin: 2rem auto;
-  }
-}
-
-@media screen and (min-height: 46em) {
-  .side_wrapper {
-    width: 100%;
-    max-width: 26rem;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .about-dev {
-    max-width: 26rem;
-  }
-} */
