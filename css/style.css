@@ -3,6 +3,9 @@
   bottom:0;
   margin-left:47%;
   animation: bounce 3s ease-in-out infinite; 
+  -webkit-animation: bounce 3s ease-in-out infinite; 
+  -moz-animation: bounce 3s ease-in-out infinite; 
+  -o-animation: bounce 3s ease-in-out infinite; 
 }
 .bounce i {
   color: white;
@@ -10,6 +13,48 @@
 }
 
 @keyframes bounce {
+  0% {
+    transform: translateY(-45px);
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: initial;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(-45px);
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: initial;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes bounce {
+  0% {
+    transform: translateY(-45px);
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: initial;
+    opacity: 0;
+  }
+}
+
+@-o-keyframes bounce {
   0% {
     transform: translateY(-45px);
     opacity: 0.1;
