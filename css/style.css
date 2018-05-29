@@ -103,7 +103,6 @@
   width: 96%;
   max-width: 26rem;
   margin: auto;
-  box-shadow: 2px 4px 2px -2px rgba(0, 0, 0, .3), -2px -4px 15px -2px rgba(0, 0, 0, .2);
   animation: profile_in 0.8s;
 }
 
@@ -173,7 +172,6 @@
 
 .student-card_about {
   line-height: 1.5;
-  background: #ededed;
   padding: 1.5em 2rem;
   color: #222;
   font-family: 'Lato', sans-serif;
@@ -183,13 +181,14 @@
 .student-card_about h2 {
   margin: 0;
   display: inline-block;
-  color: #333;
   font-weight: normal;
   text-transform: uppercase;
   font-size: 1.3rem;
   position: relative;
   z-index: 2;
   vertical-align: middle;
+  text-align: center;
+  margin-left: 2.5em;
 }
 
 .student-card_about h2::before {
@@ -198,7 +197,7 @@
   width: 110%;
   height: 1rem;
   background: #c6f1eb;
-  left: -5px;
+  left: -6px;
   top: 50%;
   z-index: -1;
 }
