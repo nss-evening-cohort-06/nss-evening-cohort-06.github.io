@@ -96,7 +96,27 @@ footer {
 
 
 .student-icons {
-    text-align: center;
+  text-align: center;
+}
+
+.student-name {
+  padding-top: 12px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.fa-linkedin-in {
+  padding: 0px 20px;
+  color: #0076B5;
+}
+
+.fa-github-alt {
+  color: #24292e;
+}
+
+.fa-globe {
+  color: #f0452d;
+  text-align: center;
 }
 
 .student-name {
@@ -188,3 +208,124 @@ footer {
     opacity: 0;
   }
 }
+
+
+/* Student card styling */
+
+.sidebar_wrapper {
+  width: 100%;
+  max-width: 20rem;
+}
+
+.about-dev {
+  width: 96%;
+  max-width: 26rem;
+  margin: auto;
+  animation: profile_in 0.8s;
+}
+
+@keyframes profile_in {
+  0% {
+    opacity: 0;
+    transform: translateY(30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* student card header */
+
+.student-card_header-container {
+  max-width: 15rem;
+  margin: auto;
+}
+
+.student-card_header {
+  text-align: center;
+}
+
+
+/* student picture */
+
+.student-card_header-imgbox {
+  display: block;
+  overflow: hidden;
+  margin: auto;
+}
+
+.student-card_header img {
+  max-width: 100%;
+}
+
+
+/* header heading */
+
+.student-card_header h1 {
+  color: #f3f3f3;
+  font-size: 1.5rem;
+  margin-top: 0.8em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  position: relative;
+}
+
+
+/* header text span */
+
+.student-card_header h1 span {
+  font-size: 1.2rem;
+  font-weight: 300;
+  display: block;
+  color: rgba(220, 220, 220, .95);
+  margin-top: 0.25em;
+  padding-top: 0.25em;
+  border-top: 0.075em solid rgba(250, 214, 195, 1);
+}
+
+
+/* about section */
+
+.student-card_about {
+  line-height: 1.5;
+  padding: 1.5em 2rem;
+  color: #222;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 3em;
+}
+
+.student-card_about h2 {
+  margin: 0;
+  display: inline-block;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  position: relative;
+  z-index: 2;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 2.5em;
+}
+
+.student-card_about h2::before {
+  content: '';
+  position: absolute;
+  width: 110%;
+  height: 1rem;
+  background: #c6f1eb;
+  left: -6px;
+  top: 50%;
+  z-index: -1;
+}
+
+.student-card_about p {
+  font-weight: 300;
+}
+
+.student-card_footer {
+  margin-top: 1.5em;
+  text-align: right;
+}
+
