@@ -1,5 +1,11 @@
 "use strict";
 
+// GENERAL SETTING
+window.sr = ScrollReveal({ reset: true });
+
+// Custom Settings
+sr.reveal('.side_wrapper', { duration: 700 });
+
 function _toArray(arr) {
   return Array.isArray(arr) ? arr : Array.from(arr)
 }
