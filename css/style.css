@@ -5,6 +5,12 @@
     font-size: 4.5rem;
 }
 
+.senior-quote {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
 .student-icons {
   text-align: center;
 }
@@ -120,7 +126,6 @@
 }
 
 
-<<<<<<< HEAD
 /* Technologies Section */
 .colored {
     font-size: 5rem;
@@ -136,7 +141,6 @@
     font-weight: bold;
     font-size: 3.0rem;
 }
-=======
 /* Student card styling */
 
 .sidebar_wrapper {
@@ -256,4 +260,3 @@
   text-align: right;
 }
 
->>>>>>> master
