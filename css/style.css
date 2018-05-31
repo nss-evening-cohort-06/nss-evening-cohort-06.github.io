@@ -1,15 +1,11 @@
-footer {
-  position: absolute;
-  padding-top: 2%;
-  font-size: 1.2em;
-}
 
-
-
+/* footer rectangles */
 .rect {
 	position: relative;
 	height: 120px;
   background: #232E39;
+  padding-top: 1%;
+  font-size: 1.2em;
 }
 .rect-left {
   z-index: 1;
@@ -22,50 +18,36 @@ footer {
   width: 44%;
 }
 .rect img {
-  margin-top: -12%;
+  margin-top: -8%;
   height: 8rem;
-}
-
-.rect > div { 
-  text-align: center; 
 }
 
 .rect:after,
 .rect:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	width: 0;
-	height: 0;
+content: "";
+position: absolute;
+top: 0;
+width: 0;
+height: 0;
 }
 .rect-left:after {
-	right: 0;
-	border-left: 100px solid #232E39;
-	border-bottom: 120px solid white;
+  right: 0;
+  border-left: 100px solid #232E39;
+  border-bottom: 120px solid white;
 }
 .rect-right:before {
-	left: -100px;
-	border-right: 100px solid #232E39;
+  left: -100px;
+  border-right: 100px solid #232E39;
   border-top: 120px solid rgba(0, 0, 0, 0); 
+
 }
 
-/* // Add padding around inner content */
-/* .rect-left > div {
-	margin-right: 100px;
-	margin-left: 50px;
-}
-.rect-right > div {
-	margin-right: 50px;
-	margin-left: 25px;
-} */
 
-#thanks p {
+/* text effect css for footer */
+#thanks span {
   color: white;
   cursor: cell;
   text-align: center;
-}
-
-#thanks span {
   transition: color 3s;
   transition-delay: 1s;
 }
@@ -329,3 +311,32 @@ footer {
   text-align: right;
 }
 
+@media (max-width:800px){
+  .rect {
+    height: 27vh;
+  }
+  .rect img {
+  margin-top: 8%;
+  }
+  .rect-left > div {
+    z-index: 5;
+  }
+  .rect:after,
+  .rect:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+  }
+  .rect-left:after {
+    right: 0;
+    border-left: none;
+    border-bottom: none;
+  }
+  .rect-right:before {
+    left: -100px;
+    border-right: none;
+    border-top: none; 
+  }
+}

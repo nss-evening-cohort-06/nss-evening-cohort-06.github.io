@@ -18,4 +18,4 @@ function makeSpans(selector) {
   })
 }
 
-makeSpans('p')
+makeSpans('#thanks')
