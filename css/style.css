@@ -233,6 +233,10 @@ height: 0;
   animation: profile_in 0.8s;
 }
 
+.senior-quote {
+  text-align: center;
+}
+
 @keyframes profile_in {
   0% {
     opacity: 0;
@@ -256,6 +260,10 @@ height: 0;
   text-align: center;
 }
 
+.student-name {
+  margin-left: 3.5em;
+
+}
 
 /* student picture */
 
