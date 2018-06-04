@@ -25,3 +25,5 @@ function makeSpans(selector) {
 }
 
 makeSpans('#thanks')
+
+document.querySelector(".student-card_header").classList.toggle("flip");
