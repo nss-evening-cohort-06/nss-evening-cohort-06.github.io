@@ -1,4 +1,6 @@
-
+body, html {
+  height: 100%;
+}
 /* footer rectangles */
 .rect {
 	position: relative;
@@ -43,6 +45,7 @@ height: 0;
 }
 
 
+
 /* text effect css for footer */
 #thanks span {
   color: white;
@@ -76,17 +79,37 @@ height: 0;
   color: #FF8B94;
 }
 
+.parallax {
+  height: 70vh;
+  background-image: url('/img/group/group-silly1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#cohort-name {
+  top: 250px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+
+#cohort-name h1{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 4.5rem;
+  color: #e6e6e6;
+}
 
 .meet-our-class {
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-    font-size: 4.5rem;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  font-size: 4.5rem;
 }
 
 .senior-quote {
-    font-family: 'Oxygen', sans-serif;
-    font-weight: 300;
-    font-style: italic;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .student-icons {
@@ -135,7 +158,7 @@ height: 0;
 .bounce {
     position: absolute;
     bottom:0;
-    margin-left:47%;
+    margin-left:48%;
     animation: bounce 3s ease-in-out infinite; 
     -webkit-animation: bounce 3s ease-in-out infinite; 
     -moz-animation: bounce 3s ease-in-out infinite; 
@@ -410,5 +433,14 @@ height: 0;
     left: -100px;
     border-right: none;
     border-top: none; 
+  }
+  .parallax {
+    height: 30vh;
+  }
+  #cohort-name {
+    top: 50px;
+  }
+  #cohort-name h1 {
+    font-size: 2.5rem;
   }
 }
