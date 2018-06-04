@@ -405,6 +405,13 @@ height: 0;
 .back {
 	transform: rotateY(180deg);
 }
+@media (min-width:1200px) {
+  .parallax {
+    height: 98vh;
+    background-size: cover;
+    background-position: center;
+  }
+}
 
 @media (max-width:800px){
   .rect {
@@ -435,7 +442,7 @@ height: 0;
     border-top: none; 
   }
   .parallax {
-    height: 30vh;
+    height: 40vh;
   }
   #cohort-name {
     top: 50px;
