@@ -82,6 +82,19 @@ height: 0;
     font-weight: bold;
     font-size: 4.5rem;
 }
+#cohort-name {
+  top: 250px;
+  left: 0;
+  width:100%;
+  position: absolute;
+  text-align: center;
+}
+
+#cohort-name h1{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 4.5rem;
+  color: #e6e6e6;
+}
 
 .senior-quote {
     font-family: 'Oxygen', sans-serif;
@@ -410,5 +423,11 @@ height: 0;
     left: -100px;
     border-right: none;
     border-top: none; 
+  }
+  #cohort-name {
+    top: 50px;
+  }
+  #cohort-name h1 {
+    font-size: 2.5rem;
   }
 }
